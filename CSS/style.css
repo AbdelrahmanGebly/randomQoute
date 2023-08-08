@@ -1,0 +1,40 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-padding-top: 60px;
+}  
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+span,a{
+    display: inline-block;
+}
+ul{
+    list-style: none;
+}
+body {
+    font-family: "Times New Roman"
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Start Styling */
+
+h1{
+    font-size: 80px;
+    font-weight: 700;
+}
+
